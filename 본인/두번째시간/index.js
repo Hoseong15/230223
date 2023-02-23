@@ -48,3 +48,11 @@ for (let i = 0; i < arr.length; i++) {
   display.innerHTML += arr[i].innerHTML + " ";
   display.style.color = 'blue';
 }
+
+
+let i = 0;
+while (i < arr.length) {
+  display.innerHTML += arr[i].innerHTML + " ";
+  display.style.color='blue';
+  i++;
+}
